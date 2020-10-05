@@ -21,6 +21,7 @@ session_start();
              $otp_received = $_POST["otp"];
              if($_SESSION["otp"] == $otp_received)
                 echo "Email Varified, Welcome !";
+             else echo "Wrong OTP !";
          }
         ?>
 
