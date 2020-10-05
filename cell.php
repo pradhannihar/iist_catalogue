@@ -84,7 +84,7 @@
         var_dump($mail);
         } else {
         echo "Email sent successfully";
-        header("Location: http://localhost/otp.php");
+        header("Location: otp.php");
         exit();
         }}
         
