@@ -1,0 +1,20 @@
+
+.otp{
+    position: relative;
+    top:200px;
+    width:200px;
+}
+
+input.input{
+    width:150px;
+}
+
+.info{
+    position: relative;
+    top:170px;
+    width:200px;
+    margin-left: 100px;
+    text-align: left;
+    font-size: 1.1em    ;
+
+}

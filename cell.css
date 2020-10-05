@@ -1,0 +1,158 @@
+.container{
+    width: 720px;
+    height:500px;
+    border-style: solid;
+    border-width: 0.1em;
+    border-color:#dbd7cc;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto ;
+    border-radius: 10px;
+    
+    
+}
+
+.title_{
+    margin-left: 100px;
+    text-align: left;
+    color: blue;
+    position: relative;
+    top:40px;
+    font-size: 1.2em;
+}
+
+.name {
+       
+    border-style: solid;
+    border-width: 0.1em;
+    border-color:#dbd7cc;
+    border-radius: 10px;
+    transition: border-color 500ms;
+    margin-left: 100px;
+    padding-left: 5px;
+    padding-right: 3px;
+    height: 34px;
+}
+.nm{
+    display: inline-block;
+    position: relative;
+    top : 100px;
+    width:200px;
+}
+.nm input{
+    width:55%;
+}
+
+.pass {
+    display: inline-block;
+    position: relative;
+    top : 250px;
+    width:200px;
+}
+.pass input{
+    width:55%;
+}
+.email{
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top:175px;
+}
+.email input{
+    width:80% ;
+}
+
+.email2{
+    width: 400px;
+    display: inline-block;
+    position: relative;
+    top:175px;
+}
+.email2 input{
+    width:80% ;
+
+}
+.send{
+    margin-left: 50px;
+    margin-right: 50px;
+    position: relative;
+    top:150px;
+    width: 100px;
+    display: inline-block;
+    
+}
+.sub input, .varify input{
+    width:100%;
+    background-color: transparent;
+    opacity: 0.7;
+    height: 24px;
+
+}
+.name.sub {
+    position: relative;
+    top: 300px;
+    width: 150px;
+    display: inline-block;
+    left: 360px;
+}
+
+.name.sub:hover{
+    border-color: blue;
+    
+}
+.sub input:hover{
+    color:blue;
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+  
+.varify{
+    position: relative;
+    top:200px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 200px;
+}
+.chng{
+    border-color: blue;
+}
+.chng div{
+    color:blue;
+}
+.invalid{
+    border-color: red;
+}
+.invalid div{
+    color:red;
+}
+.valid{
+    border-color: green;
+}
+.valid div{
+    color: green;
+}
+.input{
+    display: inline-block;
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border:none;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+input:focus{
+    outline: none;
+}
+
+div.input{
+    opacity: 0.7;
+    transition: color 500ms;
+}
+
+
+
+
