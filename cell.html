@@ -1,0 +1,80 @@
+<?php
+// Start the session
+session_start();
+?>
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Just a cell
+        </title>
+        <link rel="stylesheet" type="text/css" href="cell.css">
+        
+            <script src="index_js.js"></script>
+            <meta charset="UTF-8">
+    </head>
+    <body>
+        
+
+        
+        <form action="cell.php" method="POST" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+             <div class="container">
+             <div class="title_ ">
+                IIST Catalogue User Registration
+            </div>
+            <div class="name nm" id="firstname">
+                
+                <div class="input">
+                    First Name
+                </div>
+                <input type="text" class="input" name="firstname" onfocus=focusFun("firstname") onblur=blurFun("firstname") >
+            </div>
+           
+            <div class="name nm" id="lastname">
+              
+                <div class="input">
+                    Last Name
+                </div>
+                <input type="text" class="input " 
+                name="lastname" onfocus=focusFun("lastname") onblur=blurFun("lastname")>
+            </div>
+            
+            <div class="name email" id="email">
+                
+                <div class="input">
+                    Mail ID
+                </div>
+                <input type="text" class="input" name="email" onfocus=focusFun("email") onblur=blurFun("email") title="This email id will act
+                as a primary contact with you and is public">
+            </div>
+
+           
+            <div class="name pass" id="pass">
+                
+                <div class="input">
+                    Password
+                </div>
+                <input type="password" class="input" name="pswd" onfocus=focusFun("pass") onblur=blurFun("pass") onkeyup=vali_psw("pass")
+                pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number 
+            and one uppercase and lowercase letter, and at least 8 or more characters">
+            </div>
+           
+            <div class="name pass" id="pass-con">
+              
+                <div class="input">
+                    Confirm
+                </div>
+                <input type="password" class="input" name="pswd-con" onkeyup='match_pass("pass", "pass-con")'>
+            </div>
+            
+           <div class="name sub"><input class="input" type="submit" value="Submit"></div>
+            
+            
+
+        
+        </div>
+        </form>
+        
+    </body>
+</html>
