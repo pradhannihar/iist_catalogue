@@ -1,6 +1,6 @@
 <?php
         // define variables and set to empty values
-
+        session_start();
 
         use PHPMailer\PHPMailer\PHPMailer;
         use PHPMailer\PHPMailer\Exception;
