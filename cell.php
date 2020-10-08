@@ -68,8 +68,8 @@
         $mail->SMTPSecure = "tls";
         $mail->Port       = 587;
         $mail->Host       = "smtp.gmail.com";
-        $mail->Username   = "niharrp123@gmail.com";
-        $mail->Password   = "test-pswd123#";
+        $mail->Username   = "";
+        $mail->Password   = "";
 
         $mail->IsHTML(true);
         $mail->AddAddress($email, "Niharranjan Pradhan");
